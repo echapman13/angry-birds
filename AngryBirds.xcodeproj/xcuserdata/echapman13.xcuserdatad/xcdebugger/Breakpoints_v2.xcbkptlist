@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5E5DB2EF-DE41-4AB8-80DE-441DAB664940"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15BBF5A2-1845-42AC-B0DD-E3667A646C43"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AngryBirds/Views/BirdCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "bird"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "15BBF5A2-1845-42AC-B0DD-E3667A646C43 - 7665d61680a7513f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in AngryBirds.BirdCell.bird.didset : Swift.Optional&lt;AngryBirds.Bird&gt;"
+                  moduleName = "AngryBirds"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/echapman13/Desktop/Booth/MPCS/Mobile%20App%20Dev/angry-birds/AngryBirds/Views/BirdCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "716">
+               </Location>
+               <Location
+                  uuid = "15BBF5A2-1845-42AC-B0DD-E3667A646C43 - 92c8b355c5ac6b37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in AngryBirds.BirdCell.bird.didset : Swift.Optional&lt;AngryBirds.Bird&gt;"
+                  moduleName = "AngryBirds"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/echapman13/Desktop/Booth/MPCS/Mobile%20App%20Dev/angry-birds/AngryBirds/Views/BirdCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "95">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

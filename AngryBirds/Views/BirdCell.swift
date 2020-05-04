@@ -21,7 +21,8 @@ class BirdCell: UITableViewCell {
             self.accessoryType = bird!.confirmedSighting ? .checkmark : .none
             
             DispatchQueue.global(qos: .userInitiated).async {
-                let birdImageData = NSData(contentsOf: URL(string: self.bird!.imageUrl)!)
+                let birdImageData = NSData(contentsOf: URL(string: self.bird!.imageUrl)!) ?? NSData(contentsOf: URL(string: "https://i.pinimg.com/originals/a2/52/8b/a2528b4cde08fb45421fe51fb9b96774.jpg")!)
+                
                 DispatchQueue.main.async {
                     self.birdImageView.image = UIImage(data: birdImageData as! Data)
                     self.birdImageView.layer.cornerRadius = self.birdImageView.frame.width / 2
